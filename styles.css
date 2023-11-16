@@ -34,6 +34,7 @@ body {
 .btn {
     background-color: #4f4ce5;
     font-size: 24px;
+    color: white;
 }
 button {
     background-color: #4f4ce5;
@@ -203,6 +204,7 @@ span{
                     rgba(78, 75, 228, 1));
                      -webkit-background-clip: text;
             color: transparent;
+     margin: 0 -32px;
 }
 h4 {
     font-size: 42px;
@@ -214,6 +216,23 @@ h4 {
     border-radius: 16px;
     background: #181924;
     justify-content: center;
-    padding: 60px 32px;
+    padding: 60px 0px;
+    max-width: 64ch;
+    gap: 120px;
+}
+.nupp1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p8 {
+    font-size: 28px;
+}
+.btn2 {
+    background-color: #4f4ce5;
+    font-size: 24px;
+    color: white;
+    margin: 0 64px;
+    width:50%;
 }
 
