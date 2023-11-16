@@ -1,0 +1,219 @@
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap");
+
+*{
+    padding: 0 32px;
+    margin: 0;
+    color:white;
+    font-family: "Urbanist", sans-serif;
+}
+
+body {
+    background: black;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    font-size: 24px;
+}
+.logo {
+     background: linear-gradient(to left,
+                    rgba(232, 98, 254, 1),
+                    rgba(78, 75, 228, 1));
+                     -webkit-background-clip: text;
+            color: transparent;
+}
+.menu {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.btn {
+    background-color: #4f4ce5;
+    font-size: 24px;
+}
+button {
+    background-color: #4f4ce5;
+    border-radius: 25px;
+    padding: 16px;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+h1 {
+    background: linear-gradient(to left,
+                    rgba(232, 98, 254, 1),
+                    rgba(78, 75, 228, 1));
+                     -webkit-background-clip: text;
+                     color: transparent;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 1280px;
+    height: 88px;
+    color-scheme: light dark;
+    
+}
+
+.p2 {
+
+  
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    
+   
+    color:  rgba(255, 59, 255, 1);
+ 
+}
+
+h2 {
+    width: 1280px;
+    height: 62px;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(to left,
+                    rgba(232, 98, 254, 1),
+                    rgba(78, 75, 228, 1));
+                     -webkit-background-clip: text;
+            color: transparent;
+}
+.p1 {
+    width: 1280px;
+    height: 48px;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Teine section ehk section benefits*/
+
+.benefits_component_section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 80px, 80px;
+}
+
+section {
+    margin: 80px 0;
+}
+
+.h2white {
+    width: 600px;
+    height: 134px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+h3 {
+    width: 600px;
+    height: 72px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+
+
+.benefits_list {
+    display: flex;
+    justify-content: center;
+}
+
+.benefits_list-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.benefits_list-wrapper {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+}
+
+.benefits_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.duotone {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #181924;
+    justify-content: center;
+}
+.duotone1 {
+    display: flex;
+    padding: 30px 0;
+}
+
+.benefits_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/* Kolmas section */
+
+span{
+     background: linear-gradient(to left,
+                    rgba(232, 98, 254, 1),
+                    rgba(78, 75, 228, 1));
+                     -webkit-background-clip: text;
+            color: transparent;
+}
+h4 {
+    font-size: 42px;
+}
+
+.proactive {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #181924;
+    justify-content: center;
+    padding: 60px 32px;
+}
+
